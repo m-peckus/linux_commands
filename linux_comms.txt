@@ -1,3 +1,4 @@
+
 # GREP COMMANDS
 
 * grep -i "linux" file.txt  //case insensitive search inside selected file
@@ -22,6 +23,7 @@
 * ps aux // list running processes and their ID's
 * ps aux | grep "programm name"  // find PID of a selected programm
 * ps aux | head -n 1 //see header row of ps aux table
+* kill pid //kill selected process with process id number
 
 # FILE &  DIRECTORY COMMANDS
 
@@ -42,4 +44,9 @@
 * apt --version // see apt version instaled
 
 
+# ACESS PATH VARIABLE FROM VC
 
+* code ~/.bashrc
+
+# Return ~   // home
+# Return /  // root
