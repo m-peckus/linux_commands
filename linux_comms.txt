@@ -1,0 +1,45 @@
+# GREP COMMANDS
+
+* grep -i "linux" file.txt  //case insensitive search inside selected file
+* grep -R -i "string" .  //recursive search inside a directory
+* grep --help
+* grep -R "string" path/directory --exclude-dir ="backups"  // serach for string in a directory but not
+                                                           //  in "backups" directory
+
+
+# FIND COMMANDS
+
+* find directory -name file.txt  // find particular file inside selected directory
+
+# PATERN SEARCH
+
+* find directory -name "*.txt"  // find specific pattern inside selected directory
+* find my_directory -name "*data*"  // find file names that contain specific words or match the rest of file name
+
+# INTERUPT STOP PROCESS_id
+
+* ctrl + c
+* ps aux // list running processes and their ID's
+* ps aux | grep "programm name"  // find PID of a selected programm
+* ps aux | head -n 1 //see header row of ps aux table
+
+# FILE &  DIRECTORY COMMANDS
+
+* /rename file/   mv file.txt new_name.txt
+* /move file/   mv file.txt directory/
+* /move & rename/   mv file.txt directory/new_name.txt
+* /copy file/  cp file.txt directory/
+* /copy directory/ cp -R my_dir new_dir
+* /remove file/ rm my_file.txt
+* /remove directory/ rm -r some_directory
+* /see permissions/  ls-l
+* head -n 3 file.txt
+* tail -n 3 file.txt
+
+# UPGRADE APT(advanced package tool, one of many package managers) TO ITS LATEST VERSION
+
+* sudo apt upgrade
+* apt --version // see apt version instaled
+
+
+
