@@ -1,6 +1,10 @@
+# See UBUNTU Release Info
+
+* cat /etc/*-release  //Ubuntu release info
 
 # GREP COMMANDS
 
+* grep -Ri "string" directory_name/  //recursive search inside directory
 * grep -i "linux" file.txt  //case insensitive search inside selected file
 * grep -R -i "string" .  //recursive search inside a directory
 * grep --help
@@ -31,12 +35,21 @@
 * /move file/   mv file.txt directory/
 * /move & rename/   mv file.txt directory/new_name.txt
 * /copy file/  cp file.txt directory/
-* /copy directory/ cp -R my_dir new_dir
+* /copy directory/ cp -R my_dir backup_dir
 * /remove file/ rm my_file.txt
 * /remove directory/ rm -r some_directory
 * /see permissions/  ls-l
+* /see indside folder/  ls folder_name/
+* /see complete directory & file tree/  lsd --tree directory_name/
 * head -n 3 file.txt
 * tail -n 3 file.txt
+
+# CHMOD Commands
+
+* CHMOD -R u=rwx,g=,o=, file_name.txt  // change file access settings
+* CHMOD -x file_name.txt  // permission denied
+* CHMOD +x file_name.txt // permission allowed
+
 
 # UPGRADE APT(advanced package tool, one of many package managers) TO ITS LATEST VERSION
 
@@ -44,9 +57,15 @@
 * apt --version // see apt version instaled
 
 
-# ACESS PATH VARIABLE FROM VC
+# ACCESS PATH VARIABLE FROM VC
 
 * code ~/.bashrc
+
+# ACCESS PATH VARIABLE FROM LINUX CLI with NANO Editor
+
+* nano ~/.bash
+
+
 
 # Return ~   // home
 # Return /  // root
